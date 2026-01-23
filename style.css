@@ -1,20 +1,45 @@
 body {
-    background-color: whitesmoke;
     font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
 }
 
-.resume {
-    width: 60%;
-    margin: auto;
+.container {
+    max-width: 900px;
     background: white;
-    padding: 20px;
-    border-radius: 8px;
+    margin: 30px auto;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-h1 {
-    color: black;
+header {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 15px;
 }
 
-.title {
-    color: red;
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+section {
+    margin-top: 25px;
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #777;
 }
